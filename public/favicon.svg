@@ -1,21 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-  <rect width="512" height="512" rx="96" fill="#7FB447" />
-  <rect x="126" y="176" width="260" height="168" rx="26" fill="#f4fbf8" />
-  <rect x="156" y="206" width="64" height="46" rx="9" fill="#7FB447" />
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#B7E59A"/>
+
+  <!-- White card -->
+  <rect x="64" y="128" width="384" height="256" rx="48" ry="48" fill="#FFFFFF"/>
+
+  <!-- Green panel -->
   <path
-    d="M 300 236 A 40 40 0 0 1 340 276"
-    fill="none"
-    stroke="#7FB447"
-    stroke-width="12"
-    stroke-linecap="round"
+    d="
+      M 117 156
+      H 211
+      Q 222 156 225 168
+      L 268 340
+      Q 272 356 255 356
+      H 117
+      Q 101 356 101 340
+      V 172
+      Q 101 156 117 156
+      Z
+    "
+    fill="#7AC943"
   />
-  <path
-    d="M 300 208 A 68 68 0 0 1 368 276"
-    fill="none"
-    stroke="#7FB447"
-    stroke-width="12"
-    stroke-linecap="round"
-    opacity="0.55"
-  />
-  <rect x="156" y="286" width="150" height="16" rx="8" fill="#bfe3d5" />
+
+  <!-- Black circle -->
+  <circle cx="352" cy="184" r="28" fill="#000000"/>
+
+  <!-- Green circle -->
+  <circle cx="390" cy="184" r="28" fill="#7AC943"/>
 </svg>
