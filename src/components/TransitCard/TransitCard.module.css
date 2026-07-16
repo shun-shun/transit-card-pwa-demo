@@ -69,16 +69,18 @@
 
 .brandGlyph {
   width: 64px;
-  margin-left: 272px;
+  margin-left: auto;
+  margin-right: 5px;
   flex-shrink: 0;
   color: var(--color-text-on-primary);
   opacity: 0.85;
 }
 
 .brandPenguin {
-  width: 88px;
-  margin-top: 68px;
-  margin-left: 250px;
+  width: 94px;
+  margin-top: 44px;
+  margin-left: auto;
+  margin-right: 5px;
   flex-shrink: 0;
   color: var(--color-text-on-primary);
   opacity: 0.85;
